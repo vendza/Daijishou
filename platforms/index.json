@@ -1,5 +1,5 @@
 {
-  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
+  "baseUri": "https://raw.githubusercontent.com/vendza/Daijishou/main/platforms/",
   "platformList": [
     {
       "filename": "3DO.json",
@@ -231,6 +231,13 @@
       "platformShortname": "channelf",
       "platformUniqueId": "channelf",
       "revisionNumber": 6
+    },
+    {
+      "filename": "Famicom.json",
+      "platformName": "Family Computer",
+      "platformShortname": "famicom",
+      "platformUniqueId": "famicom",
+      "revisionNumber": 1
     },
     {
       "filename": "FamicomDiskSystem.json",
