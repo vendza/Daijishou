@@ -744,6 +744,13 @@
       "revisionNumber": 1
     },
     {
+      "filename": "PCEngine.json",
+      "platformName": "PC Engine",
+      "platformShortname": "pcengine",
+      "platformUniqueId": "pcengine",
+      "revisionNumber": 1
+    },
+    {
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
