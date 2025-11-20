@@ -3,7 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Sega Mega Drive",
-    "uniqueId": "megadrive",
+    "uniqueId": "genesis",
     "shortname": "megadrive",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
