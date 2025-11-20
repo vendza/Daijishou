@@ -3,7 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Sega Mega CD",
-    "uniqueId": "megacd",
+    "uniqueId": "segacd",
     "shortname": "megacd",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
