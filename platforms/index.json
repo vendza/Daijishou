@@ -583,6 +583,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "SegaMegaCD.json",
+      "platformName": "Sega Mega CD",
+      "platformShortname": "megacd",
+      "platformUniqueId": "megacd",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SegaCD.json",
       "platformName": "Sega CD",
       "platformShortname": "segacd",
@@ -595,6 +602,13 @@
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
       "revisionNumber": 11
+    },
+    {
+      "filename": "SegaMegaDrive.json",
+      "platformName": "Sega Mega Drive",
+      "platformShortname": "megadrive",
+      "platformUniqueId": "megadrive",
+      "revisionNumber": 1
     },
     {
       "filename": "SegaGenesis.json",
@@ -709,6 +723,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "SuperFamicom.json",
+      "platformName": "Super Famicom",
+      "platformShortname": "sfc",
+      "platformUniqueId": "sfc",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes",
@@ -756,6 +777,13 @@
       "platformShortname": "tg16",
       "platformUniqueId": "tg16",
       "revisionNumber": 8
+    },
+    {
+      "filename": "PCEngineCD.json",
+      "platformName": "PC Engine CD",
+      "platformShortname": "pcenginecd",
+      "platformUniqueId": "pcenginecd",
+      "revisionNumber": 1
     },
     {
       "filename": "TurboGrafxCD.json",
