@@ -8,7 +8,7 @@
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
-      "LIBRETRO:Sega - Mega Drive - Genesis"
+      "LIBRETRO:Sega - Mega-CD - Sega CD"
     ],
     "boxArtAspectRatioId": 0,
     "useCustomBoxArtAspectRatio": false,
@@ -17,7 +17,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsConsoleIdList": [
-      1
+      26
     ],
     "extra": ""
   },
