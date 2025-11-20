@@ -26,6 +26,185 @@
     "extra": ""
   },
   "playerList": [
-    /* copy everything from your SegaGenesis.json playerList block unchanged */
+    {
+      "name": "genesis - com.explusalpha.Gensoid",
+      "uniqueId": "genesis.com.explusalpha.Gensoid",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.explusalpha.Gensoid/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.explusalpha.MdEmu",
+      "uniqueId": "genesis.com.explusalpha.MdEmu",
+      "description": "Support extensions: 32x, bin, gen, md, smd, cue.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd|cue)$",
+      "amStartArguments": "-n com.explusalpha.MdEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.mega",
+      "uniqueId": "genesis.com.sega.mega",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.mega/com.sega.mega.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.mega.android",
+      "uniqueId": "genesis.com.sega.mega.android",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.mega.android/com.sega.mega.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.puyo.genesis",
+      "uniqueId": "genesis.com.sega.puyo.genesis",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.puyo.genesis/com.sega.puyo.genesis.MainNativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.sonic2.runner",
+      "uniqueId": "genesis.com.sega.sonic2.runner",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.sonic2.runner/com.sega.sonic2.runner.Sonic2NativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.soniccd.classic",
+      "uniqueId": "genesis.com.sega.soniccd.classic",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.soniccd.classic/com.sega.soniccd.classic.SonicCDNativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - com.sega.soniccd.runner",
+      "uniqueId": "genesis.com.sega.soniccd.runner",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n com.sega.soniccd.runner/com.sega.soniccd.runner.SonicCDNativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - org.mozilla.fenix",
+      "uniqueId": "genesis.org.mozilla.fenix",
+      "description": "Support extensions: 32x, bin, gen, md, smd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|bin|gen|md|smd)$",
+      "amStartArguments": "-n org.mozilla.fenix/org.mozilla.fenix.App\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 64 - genesis_plus_gx",
+      "uniqueId": "genesis.ra64.genesis_plus_gx",
+      "description": "Supported extensions: 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 64 - genesis_plus_gx_wide",
+      "uniqueId": "genesis.ra64.genesis_plus_gx_wide",
+      "description": "Supported extensions: 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_wide_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 64 - blastem",
+      "uniqueId": "genesis.ra64.blastem",
+      "description": "Supported extensions: 32x, gen, md, sgd, smd, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|gen|md|sgd|smd|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/blastem_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 64 - picodrive",
+      "uniqueId": "genesis.ra64.picodrive",
+      "description": "Supported extensions: 32x, 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 32 - genesis_plus_gx",
+      "uniqueId": "genesis.ra32.genesis_plus_gx",
+      "description": "Supported extensions: 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch 32 - picodrive",
+      "uniqueId": "genesis.ra32.picodrive",
+      "description": "Supported extensions: 32x, 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch - genesis_plus_gx",
+      "uniqueId": "genesis.ra.genesis_plus_gx",
+      "description": "Supported extensions: 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/genesis_plus_gx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch - genesis_plus_gx_wide",
+      "uniqueId": "genesis.ra.genesis_plus_gx_wide",
+      "description": "Supported extensions: 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/genesis_plus_gx_wide_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - RetroArch - picodrive",
+      "uniqueId": "genesis.ra.picodrive",
+      "description": "Supported extensions: 32x, 68k, bin, gen, md, sgd, smd, cue, iso, chd, sms, gg, sg, m3u, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|gen|md|sgd|smd|cue|iso|chd|sms|gg|sg|m3u|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
   ]
 }
