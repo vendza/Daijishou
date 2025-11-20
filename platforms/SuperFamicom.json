@@ -3,7 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Super Famicom",
-    "uniqueId": "sfc",
+    "uniqueId": "snes",
     "shortname": "sfc",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
